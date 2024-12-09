@@ -1,0 +1,16 @@
+const people = [ { name: "Alice", address: { city: "New York",
+street: { name: "Broadway", number: 123 } } },
+
+{ name: "Bob", address: { city: "Los Angeles", street:
+{ name: "Sunset Boulevard",
+number: 456 } } } 
+];
+
+
+var ans=people.map((ele)=>{
+let bag=[];
+let {address:{city,street}} =ele;
+   return `${ele.name} live is ${city} on ${street.name}`
+
+})
+console.log(ans)
