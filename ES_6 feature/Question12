@@ -1,0 +1,2 @@
+let sum=(x)=>`{square:${x*x},cube:${x*x*x}}`
+console.log(sum(5))
