@@ -1,0 +1,12 @@
+let age=20;
+function displayAge(){
+console.log(`Age of a person is ${age}`);
+}
+displayAge()
+function changeAge(){
+  age=21;
+  return age
+}
+// displayAge();
+console.log( changeAge())
+displayAge()
